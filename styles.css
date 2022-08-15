@@ -88,6 +88,7 @@ button {
 
 .random-container {
     display: flex;
+    justify-content: center;
 }
 
 .random {
@@ -122,17 +123,52 @@ img {
     color: #1F2937;
     height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .quote {
     font-size: 36px;
     font-weight: lighter;
-    width: 800px;
+    width: 800px; 
 }
 
 .thor {
     font-weight: 900;
+    margin-left: 600px;
 }
+
+.call-container {
+    background-color: #F9FAF8;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.call {
+    background-color: #3882F6;
+    width: 900px;
+    height: 150px;
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.text-1,
+.text2 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-3 {
+    margin-left: 100px;
+    border: 1px solid;
+    padding: 2 10px;
+    border-radius: 2px;
+}
+
