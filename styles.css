@@ -159,10 +159,8 @@ img {
 }
 
 .text-1,
-.text2 {
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
+.text-2 {
+    padding: 10px;
 }
 
 .text-3 {
@@ -172,3 +170,11 @@ img {
     border-radius: 2px;
 }
 
+footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
